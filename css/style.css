@@ -1,0 +1,361 @@
+*{
+	padding: 0;
+	font-family: sans-serif;
+}
+a{
+	padding-left: 7px;
+	color: inherit;
+	text-decoration: none;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header img{
+	float:left;
+	width: auto;
+}
+header h1{
+	float:left;
+	padding: 10px 0px;
+	color: rgba(46, 136, 255, 0.6);
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	color: rgba(46, 136, 255, 0.6);
+}
+.active{
+	background-color:rgba(46, 136, 255, 0.6);
+	color: rgb(255, 255, 255);
+}
+.banner{
+	height: 80vh;
+	background-image: url(../img/back2.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(41, 41, 41, 0.6);
+}
+.banner h2{
+	color:rgb(255, 255, 255);
+	text-align: center;
+	word-spacing: normal;
+	line-height: 50px;
+	z-index: 1;
+	padding: 20px 25px;
+}
+.img1 {
+	float: left;
+	padding-right: 20px;
+	padding-top: 50px;
+}
+.img2 {
+	float: right;
+	padding-left: 20px;
+	padding-top: 100px;
+}
+.img3 {
+	float: left;
+	padding-right: 20px;
+	padding-top: 150px;
+}
+.serv h4{
+	padding-top: 120px;
+}
+.serv p{
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.serv::after:{
+	content: "";
+	clear: both;
+	display: table;
+}
+.serv2 h4{
+	padding-top: 170px;
+}
+.serv2 p{
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.serv2::after:{
+	content: "";
+	clear: both;
+	display: table;
+}
+.serv3 h4{
+	padding-top: 220px;
+}
+.serv3 p{
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.serv3::after:{
+	content: "";
+	clear: both;
+	display: table;
+}
+.video{
+	height: 80vh;
+	background-size: cover;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	#background-color: rgba(46, 136, 255, 0.6);
+	margin-top: 20px;	
+}
+.video h2{
+	background-color: rgba(46, 136, 255, 0.6);
+	color: #fff;
+}
+section h2{
+	color: #fff;
+	background-color: rgba(49, 49, 49, 0.6);
+	padding: 20px 0px;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color:#000000;
+}
+.profile{
+	background-color:rgb(250, 250, 250);
+}
+.profile h3{
+	background-color:rgba(46, 136, 255, 0.6);
+	color: #fff;
+}
+.gambar{
+	width: auto;
+	height: auto;
+	border: 0,5px solid;
+	text-align:justify;
+	line-height: normal;
+	font-size: 15px;
+	padding-bottom: 50px;
+}
+.gambar1{
+	width: auto;
+	height: 374px;
+	float:right;
+	padding-left: 20px;
+}
+.gambar h4{
+	color:rgba(46, 136, 255, 0.6) ;
+	font-size:xx-large;
+	padding-top: 100px;
+}
+.gambar p{
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.gambar	::after:{
+	content: "";
+	clear: both;
+	display: table;
+}
+.gambar3{
+	width: auto;
+	height: 374px;
+	float:left;
+	padding-right: 20px;
+	padding-top: 50px;
+}
+.gambar2 h4{
+	color:rgba(46, 136, 255, 0.6) ;
+	font-size:xx-large;
+	padding-top: 50px;
+}
+.gambar2 p{
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.gambar2::after:{
+	content: "";
+	clear: both;
+	display: table;
+}
+.gambar4 h4{
+	color:rgba(46, 136, 255, 0.6) ;
+	font-size:xx-large;
+	padding-top: 10px;
+}
+.gambar4 p{
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.gambar4::after:{
+	content: "";
+	clear: both;
+	display: table;
+}
+.service h3{
+	background-color:rgba(46, 136, 255, 0.6);
+	color: #fff;
+	font-size:x-large;
+	padding: 20px;
+}
+.lay1{
+	width: auto;
+	height: 374px;
+	float:left;
+	padding-right: 20px;
+}
+.lay2{
+	width: auto;
+	height: 374px;
+	float:left;
+	padding-right: 20px;
+}
+.lay3{
+	width: auto;
+	height: 374px;
+	float:right;
+	padding-left: 20px;
+}
+.layanan h4{
+	color:rgba(46, 136, 255, 0.6) ;
+	font-size:xx-large;
+	padding-top: 10px;
+}
+.layanan p{
+	text-align: justify;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.layanan::after:{
+	content: "";
+	clear: both;
+	display: table;
+}
+.internet .int1{
+	width: 29%;
+	padding: 20px;
+	text-align: left;
+	float: left;
+}
+.internet h4{
+	color:rgba(46, 136, 255, 0.6) ;
+	font-size:x-large;
+}
+.internet ul{
+	text-align: justify;
+	word-spacing: 2px;
+	line-height: 25px;
+	padding-left: 15px;
+}
+.internet p{
+	text-align: left;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.tabel .col-4{
+	width:29,9%;
+	padding:79px;
+	text-align:center;
+	float: left;
+}
+.tabel .col-4 h4{
+	text-align:center;
+	margin: 10px 0;
+}
+.tabel .col-4 p{
+	color:-webkit-link;
+	text-align:center;
+	margin: 10px 0;
+}
+.about{
+	color:rgba(46, 136, 255, 0.6) ;
+}
+.about h3{
+	color: rgba(46, 136, 255, 0.6)
+}
+.about p{
+	color:#000000;
+	word-spacing: 2px;
+	line-height: 25px;	
+}
+.contact{
+	background-color:rgba(46, 136, 255, 0.6);
+}
+.form{
+	padding-top: 40px;
+	padding-bottom: 5px;
+	font-size:larger;
+	margin: 20px;
+}
+textarea{
+	height: auto;
+	width: 50%;
+	box-shadow: none;
+	border: 1px solid dodgerblue;
+	padding: 6px 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;	
+	background: none;
+	color: #959595;
+	font-size: 18px;
+	border-radius: 0;
+}
+button{
+	background-color:rgba(46, 136, 255, 0.6); 
+	font-size:large; 
+	color: white; 
+	padding:5px 10px;
+	cursor: pointer;
+	box-shadow: none;
+	border-radius: 0;
+	border:1px solid rgba(46, 136, 255, 0.6)
+}
+.kotak{
+	box-shadow: none;
+	border: 1px solid dodgerblue;
+	padding: 6px 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 25px;
+	background: none;
+	color: #959595;
+	font-size: 18px;
+	border-radius: 0;
+	width: 30%;
+}
+footer{
+	padding: 10px 0;
+	background-color:rgba(46, 136, 255, 0.6);
+	color:white;
+	text-align: center;
+}
+.icon{
+	font-size: xx-large;
+}
